@@ -11,7 +11,7 @@ public class BallMovement : MonoBehaviour
     bool isGrounded;
 
     public Camera cam;
-    public float dirRotate = -15.0f;
+    public float dirRotate = -27.0f;
 
 
     // Start is called before the first frame update

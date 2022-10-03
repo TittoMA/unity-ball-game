@@ -13,7 +13,7 @@ public class CameraMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        offsetX = new Vector3(player.position.x, player.position.y + 1.35f, player.position.z - 7.0f);
+        offsetX = new Vector3(player.position.x, player.position.y + 3f, player.position.z - 7.0f);
         // offsetY = new Vector3 (player.position.x, player.position.y, player.position.z - 7.0f);
     }
 
