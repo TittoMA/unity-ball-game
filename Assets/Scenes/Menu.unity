@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1284,7 +1284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1351531487
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1468,7 +1468,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1505881578
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1796,7 +1796,7 @@ RectTransform:
   m_GameObject: {fileID: 1948736569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0125, y: 1.0213844, z: 1}
   m_Children: []
   m_Father: {fileID: 1316907963}
   m_RootOrder: 0
@@ -2012,7 +2012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 0.1494}
+  m_AnchoredPosition: {x: 6, y: 0.1494}
   m_SizeDelta: {x: 774.2041, y: 78.8591}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2096079282
@@ -2035,14 +2035,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'OKTARIAN KARYANTO UTOMO 180535632533
-
-    MUHAMMAD PRASETYO NUGROHO 200535626872
-
-    RAMA
-    APRYAN LOKANANTHA 200535426865
-
-    TITTO MAHOGANY ATTARAQIE 200535626830'
+  m_text: "OKTARIAN KARYANTO UTOMO \t\t(180535632533)\nMUHAMMAD PRASETYO NUGROHO
+    \t(200535626872)\nRAMA APRYAN LOKANANTHA \t\t(200535426865)\nTITTO MAHOGANY ATTARAQIE
+    \t\t(200535626830)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2105,7 +2100,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -34.947292, z: 0, w: -49.126995}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
