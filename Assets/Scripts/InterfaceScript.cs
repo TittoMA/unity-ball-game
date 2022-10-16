@@ -7,6 +7,7 @@ public class InterfaceScript : MonoBehaviour
 {
     public GameObject panel;
     public TMP_Text timeResult;
+    public GameObject animation;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class InterfaceScript : MonoBehaviour
         if(Goal.isGoal) {
             timeResult.text = Timer.time;
             panel.gameObject.SetActive(true);
+            animation.GetComponent<Animator>().enabled = false;
         }
     }
 }
